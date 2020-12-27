@@ -1,0 +1,43 @@
+
+$primary: #fff;
+
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btnprimary {
+    background-color: $primary;
+    
+    color: #242424;
+    border: 1px solid $primary;
+    border-radius: 8px;
+}
+
+.btnoutline {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: 1px solid $primary;
+    transition: all 0.3s ease-out;
+}
+
+.btnmedium {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.btnlarge {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+.btnmedium:hover, .btnlarge:hover {
+    background: #fff;
+    color: #242424;
+    transition: all 0.3 ease-out;
+}
